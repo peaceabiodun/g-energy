@@ -2,7 +2,7 @@
 
 export default function Home() {
   return (
-    <div>
+    <div className="landing_bg w-full h-full">
       welcome
     </div>
   );
