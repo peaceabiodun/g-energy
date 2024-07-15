@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 body {
   margin: 0;
   font-family: monospace, sans-serif;
@@ -12,6 +10,15 @@ body {
   color: #3d3e3f;
 }
 
+.bg_1 {
+  background: rgb(87,112,235);
+background: radial-gradient(circle, rgba(87,112,235,0.11808473389355745) 62%, rgba(150,147,242,0.7343312324929971) 100%);
+}
+
+.bg_2{ 
+  background: rgb(235,87,112);
+background: radial-gradient(circle, rgba(235,87,112,0.10968137254901966) 57%, rgba(242,177,147,0.7903536414565826) 100%);
+}
 .landing_bg {
   background-size: cover;
   background-repeat: no-repeat;
@@ -21,5 +28,5 @@ body {
       rgba(255, 0, 0, 0),
       rgb(37, 36, 36)
     ),
-    url('/public/bg.jpg');
+    url("/public/bg.jpg");
 }
