@@ -19,7 +19,7 @@ export default function Home() {
             <div className="w-[270px] xs:w-[300px] h-[200px] rounded-3xl bg_1 shadow-md p-4 xs:p-7 flex flex-col items-center">
               <Image
                 alt="male"
-                src={"/img2.jpg"}
+                src={"/Bitmap.jpg"}
                 width={40}
                 height={40}
                 className="rounded-full object-cover w-10 h-10"
