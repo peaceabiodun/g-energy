@@ -8,14 +8,14 @@ export default function Home() {
     // <div className="landing_bg w-full h-full">
     //   welcome
     // </div>
-    <div className="w-screen h-screen flex justify-center items-center p-5 lg:p-10 ">
+    <div className="w-full h-full flex justify-center items-center p-5 lg:p-10 ">
       <div className="w-full h-full md:w-[760px] md:h-[700px] border border-gray-300 rounded-xl py-8 px-7 md:px-28 flex flex-col justify-between items-center">
         <p className="text-sm font-semibold text-center">Friday</p>
         <div>
           <h1 className="font-medium text-xl md:text-3xl text-center">
             How can we make things better ?
           </h1>
-          <div className="flex flex-col md:flex-row gap-7 items-center my-8">
+          <div className="flex flex-col md:flex-row gap-7 items-center my-10">
             <div className="w-[270px] xs:w-[300px] h-[200px] rounded-3xl bg_1 shadow-md p-4 xs:p-7 flex flex-col items-center">
               <Image
                 alt="male"
