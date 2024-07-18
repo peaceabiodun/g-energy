@@ -5,9 +5,7 @@ import { HiOutlineArrowDownTray } from "react-icons/hi2";
 
 export default function Home() {
   return (
-    // <div className="landing_bg w-full h-full">
-    //   welcome
-    // </div>
+   
     <div className="w-full h-full flex justify-center items-center p-5 lg:p-10 ">
       <div className="w-full h-full md:w-[760px] md:h-[700px] border border-gray-300 rounded-xl py-8 px-7 md:px-28 flex flex-col justify-between items-center">
         <p className="text-sm font-semibold text-center">Friday</p>
@@ -16,7 +14,7 @@ export default function Home() {
             How can we make things better ?
           </h1>
           <div className="flex flex-col md:flex-row gap-7 items-center my-10">
-            <div className="w-[270px] xs:w-[300px] h-[200px] rounded-3xl bg_1 shadow-md p-4 xs:p-7 flex flex-col items-center">
+            <div className="w-[270px] xs:w-[300px] h-[200px] rounded-[28px] bg_1 shadow-md p-4 xs:p-7 flex flex-col items-center">
               <Image
                 alt="male"
                 src={"/Bitmap.jpg"}
@@ -30,7 +28,7 @@ export default function Home() {
                 a better option than mural.
               </p>
             </div>
-            <div className="w-[270px] xs:w-[300px] h-[200px] rounded-3xl bg_2 shadow-md p-4 xs:p-7 flex flex-col items-center">
+            <div className="w-[270px] xs:w-[300px] h-[200px] rounded-[28px] bg_2 shadow-md p-4 xs:p-7 flex flex-col items-center">
               <Image
                 alt="male"
                 src={"/img1.jpg"}
