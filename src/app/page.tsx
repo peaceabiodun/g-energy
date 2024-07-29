@@ -14,7 +14,15 @@ const HomePage = () => {
         </button>
       </div>
 
-      <div className="p-6 border w-[80vw] my-10 bg-[#3b3b3b67] rounded-xl ">
+      <div className="p-6 border w-[80vw] my-10 bg-[#3b3b3b67] rounded-xl flex gap-6">
+        <div>
+            <h2>Solar</h2>
+            <p>Solar energy is all we need. It is good safe and it is renewable</p>
+        </div>
+        <div>
+            <h2>Solar</h2>
+            <p>Solar energy is all we need. It is good safe and it is renewable</p>
+        </div>
         <div>
             <h2>Solar</h2>
             <p>Solar energy is all we need. It is good safe and it is renewable</p>
