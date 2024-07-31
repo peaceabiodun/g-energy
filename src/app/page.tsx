@@ -9,21 +9,21 @@ const HomePage = () => {
           {" "}
           Gobal integrated energy company
         </p>
-        <button className="bg-[#17f3e8] rounded-3xl p-2 w-[160px] h-[40px] text-sm font-semibold">
+        <button className="bg-[#17f3e8] hover:bg-[#32c7bf] rounded-3xl p-2 w-[160px] h-[40px] text-sm font-semibold">
           Explore
         </button>
       </div>
 
       <div className="w-full grid grid-cols-3 gap-6 mt-20">
-        <div className="p-6 border bg-[#3b3b3b67] rounded-xl ">
+        <div className="p-6 border bg-[#3b3b3b67] rounded-xl hover:bg-[#75737367] cursor-pointer">
             <h2 className="text-lg font-semibold text-white mb-4">Solar</h2>
             <p className="text-[#eef7ed] text-sm">Solar energy is all we need. It is good safe and it is renewable</p>
         </div>
-        <div className="p-6 border bg-[#3b3b3b67] rounded-xl ">
+        <div className="p-6 border bg-[#3b3b3b67] rounded-xl hover:bg-[#75737367] cursor-pointer">
             <h2 className="text-lg font-semibold text-white mb-4">Solar</h2>
             <p className="text-[#eef7ed] text-sm"> Solar energy is all we need. It is good safe and it is renewable</p>
         </div>
-        <div className="p-6 border bg-[#3b3b3b67] rounded-xl ">
+        <div className="p-6 border bg-[#3b3b3b67] rounded-xl hover:bg-[#75737367] cursor-pointer">
             <h2 className="text-lg font-semibold text-white mb-4">Solar</h2>
             <p className="text-[#eef7ed] text-sm">Solar energy is all we need. It is good safe and it is renewable</p>
         </div>
