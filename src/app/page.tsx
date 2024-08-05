@@ -15,7 +15,7 @@ const HomePage = () => {
           </button>
         </div>
 
-        <div className="w-full grid grid-cols-3 gap-6 mt-20">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-6 mt-20">
           <div className="p-6 border bg-[#3b3b3b67] rounded-xl hover:bg-[#75737367] cursor-pointer">
             <h2 className="text-lg font-semibold text-white mb-4">Solar</h2>
             <p className="text-[#eef7ed] text-sm">
